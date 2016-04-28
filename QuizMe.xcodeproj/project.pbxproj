@@ -18,6 +18,10 @@
 		15C3E4EB1CD1996F005619B7 /* book-2869_1920.png in Resources */ = {isa = PBXBuildFile; fileRef = 15C3E4EA1CD1996F005619B7 /* book-2869_1920.png */; };
 		15C3E4ED1CD19A49005619B7 /* library-443371_1920.png in Resources */ = {isa = PBXBuildFile; fileRef = 15C3E4EC1CD19A49005619B7 /* library-443371_1920.png */; };
 		15C3E4EF1CD19C61005619B7 /* QuizMeTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = 15C3E4EE1CD19C61005619B7 /* QuizMeTitle.png */; };
+		15C8F7251CD1B53300A02B36 /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C8F7241CD1B53300A02B36 /* LogInViewController.m */; };
+		15C8F7281CD1B59900A02B36 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C8F7271CD1B59900A02B36 /* SignUpViewController.m */; };
+		15C8F72E1CD1C10700A02B36 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15C8F72D1CD1C10700A02B36 /* FBSDKCoreKit.framework */; };
+		15C8F7301CD1C15F00A02B36 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15C8F72F1CD1C15F00A02B36 /* FBSDKLoginKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,12 @@
 		15C3E4EA1CD1996F005619B7 /* book-2869_1920.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "book-2869_1920.png"; sourceTree = "<group>"; };
 		15C3E4EC1CD19A49005619B7 /* library-443371_1920.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "library-443371_1920.png"; sourceTree = "<group>"; };
 		15C3E4EE1CD19C61005619B7 /* QuizMeTitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QuizMeTitle.png; sourceTree = "<group>"; };
+		15C8F7231CD1B53300A02B36 /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
+		15C8F7241CD1B53300A02B36 /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
+		15C8F7261CD1B59900A02B36 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		15C8F7271CD1B59900A02B36 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		15C8F72D1CD1C10700A02B36 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		15C8F72F1CD1C15F00A02B36 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15C8F7301CD1C15F00A02B36 /* FBSDKLoginKit.framework in Frameworks */,
+				15C8F72E1CD1C10700A02B36 /* FBSDKCoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +83,7 @@
 		15458DE81CD04DE50008C4B9 = {
 			isa = PBXGroup;
 			children = (
+				15C8F72A1CD1BF7C00A02B36 /* Frameworks */,
 				15458DF31CD04DE50008C4B9 /* QuizMe */,
 				15458E0D1CD04DE50008C4B9 /* QuizMeTests */,
 				15458DF21CD04DE50008C4B9 /* Products */,
@@ -93,6 +106,10 @@
 		15458DF31CD04DE50008C4B9 /* QuizMe */ = {
 			isa = PBXGroup;
 			children = (
+				15C8F7261CD1B59900A02B36 /* SignUpViewController.h */,
+				15C8F7271CD1B59900A02B36 /* SignUpViewController.m */,
+				15C8F7231CD1B53300A02B36 /* LogInViewController.h */,
+				15C8F7241CD1B53300A02B36 /* LogInViewController.m */,
 				15458DF81CD04DE50008C4B9 /* AppDelegate.h */,
 				15458DF91CD04DE50008C4B9 /* AppDelegate.m */,
 				15458DFB1CD04DE50008C4B9 /* ViewController.h */,
@@ -129,6 +146,15 @@
 				15458E0F1CD04DE50008C4B9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15C8F72A1CD1BF7C00A02B36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15C8F72F1CD1C15F00A02B36 /* FBSDKLoginKit.framework */,
+				15C8F72D1CD1C10700A02B36 /* FBSDKCoreKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,7 +201,7 @@
 		15458DE91CD04DE50008C4B9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = Dafe;
 				TargetAttributes = {
 					15458DF01CD04DE50008C4B9 = {
@@ -235,6 +261,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15C8F7251CD1B53300A02B36 /* LogInViewController.m in Sources */,
+				15C8F7281CD1B59900A02B36 /* SignUpViewController.m in Sources */,
 				15458DFD1CD04DE50008C4B9 /* ViewController.m in Sources */,
 				15458DFA1CD04DE50008C4B9 /* AppDelegate.m in Sources */,
 				15458DF71CD04DE50008C4B9 /* main.m in Sources */,
@@ -283,6 +311,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -300,6 +329,10 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					/Users/Dafe/Documents/FacebookSDK,
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -327,6 +360,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -345,6 +379,10 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Dafe/Documents/FacebookSDK,
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -365,6 +403,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Dafe/Documents/FacebookSDK,
+				);
 				INFOPLIST_FILE = QuizMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -375,6 +418,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Dafe/Documents/FacebookSDK,
+				);
 				INFOPLIST_FILE = QuizMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
