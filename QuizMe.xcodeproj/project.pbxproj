@@ -14,6 +14,10 @@
 		15458E021CD04DE50008C4B9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15458E011CD04DE50008C4B9 /* Images.xcassets */; };
 		15458E051CD04DE50008C4B9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15458E031CD04DE50008C4B9 /* LaunchScreen.xib */; };
 		15458E111CD04DE50008C4B9 /* QuizMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15458E101CD04DE50008C4B9 /* QuizMeTests.m */; };
+		15C3E4E91CD192AF005619B7 /* TTF in Resources */ = {isa = PBXBuildFile; fileRef = 15C3E4E81CD192AF005619B7 /* TTF */; };
+		15C3E4EB1CD1996F005619B7 /* book-2869_1920.png in Resources */ = {isa = PBXBuildFile; fileRef = 15C3E4EA1CD1996F005619B7 /* book-2869_1920.png */; };
+		15C3E4ED1CD19A49005619B7 /* library-443371_1920.png in Resources */ = {isa = PBXBuildFile; fileRef = 15C3E4EC1CD19A49005619B7 /* library-443371_1920.png */; };
+		15C3E4EF1CD19C61005619B7 /* QuizMeTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = 15C3E4EE1CD19C61005619B7 /* QuizMeTitle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,10 @@
 		15458E0A1CD04DE50008C4B9 /* QuizMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15458E0F1CD04DE50008C4B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15458E101CD04DE50008C4B9 /* QuizMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizMeTests.m; sourceTree = "<group>"; };
+		15C3E4E81CD192AF005619B7 /* TTF */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TTF; sourceTree = "<group>"; };
+		15C3E4EA1CD1996F005619B7 /* book-2869_1920.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "book-2869_1920.png"; sourceTree = "<group>"; };
+		15C3E4EC1CD19A49005619B7 /* library-443371_1920.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "library-443371_1920.png"; sourceTree = "<group>"; };
+		15C3E4EE1CD19C61005619B7 /* QuizMeTitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QuizMeTitle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +74,10 @@
 				15458DF31CD04DE50008C4B9 /* QuizMe */,
 				15458E0D1CD04DE50008C4B9 /* QuizMeTests */,
 				15458DF21CD04DE50008C4B9 /* Products */,
+				15C3E4E81CD192AF005619B7 /* TTF */,
+				15C3E4EA1CD1996F005619B7 /* book-2869_1920.png */,
+				15C3E4EC1CD19A49005619B7 /* library-443371_1920.png */,
+				15C3E4EE1CD19C61005619B7 /* QuizMeTitle.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -200,8 +212,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				15458E001CD04DE50008C4B9 /* Main.storyboard in Resources */,
+				15C3E4ED1CD19A49005619B7 /* library-443371_1920.png in Resources */,
+				15C3E4E91CD192AF005619B7 /* TTF in Resources */,
+				15C3E4EF1CD19C61005619B7 /* QuizMeTitle.png in Resources */,
 				15458E051CD04DE50008C4B9 /* LaunchScreen.xib in Resources */,
 				15458E021CD04DE50008C4B9 /* Images.xcassets in Resources */,
+				15C3E4EB1CD1996F005619B7 /* book-2869_1920.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +434,7 @@
 				15458E161CD04DE50008C4B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15458E171CD04DE50008C4B9 /* Build configuration list for PBXNativeTarget "QuizMeTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +443,7 @@
 				15458E191CD04DE50008C4B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
