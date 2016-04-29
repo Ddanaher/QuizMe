@@ -1,18 +1,18 @@
 //
-//  LogInViewController.m
-//  
+//  MainUIViewController.m
+//  QuizMe
 //
-//  Created by David Danaher on 4/27/16.
-//
+//  Created by David Danaher on 4/28/16.
+//  Copyright © 2016 Dafe. All rights reserved.
 //
 
-#import "LogInViewController.h"
+#import "MainUIViewController.h"
 
-@interface LogInViewController ()
+@interface MainUIViewController ()
 
 @end
 
-@implementation LogInViewController
+@implementation MainUIViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -24,11 +24,18 @@
     // Dispose of any resources that can be recreated.
 }
 
--(IBAction)LogIn:(id)sender{
-    UIStoryboard *mainui = [UIStoryboard storyboardWithName:@"MainUI" bundle:nil];
-    UIViewController *cont = [mainui instantiateViewControllerWithIdentifier:@"initUI"];
-    [self presentViewController:cont animated:true completion:NULL];
+-(IBAction)createDeck:(id)sender{
+    //Initialize a new deck object and switch view to createDeckView
 }
+
+-(IBAction)myDecks:(id)sender{
+    //Pull up deckView with a name for all deck objects in account
+}
+
+-(IBAction)searchDecks:(id)sender{
+    //Go to search screen with search bar and advanced search settings
+}
+
 
 /*
 #pragma mark - Navigation

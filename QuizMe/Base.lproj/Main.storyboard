@@ -70,25 +70,6 @@
             </objects>
             <point key="canvasLocation" x="1903.5" y="102.5"/>
         </scene>
-        <!--Main -->
-        <scene sceneID="sjJ-m0-Iwy">
-            <objects>
-                <viewController title="Main " id="pXM-zo-nnK" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="g1F-SW-rsf"/>
-                        <viewControllerLayoutGuide type="bottom" id="Fq5-kJ-hnC"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="bY5-We-h4o">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="5Un-oF-xZo" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2674.5" y="102.5"/>
-        </scene>
         <!--Log In-->
         <scene sceneID="JKc-sa-Ak7">
             <objects>
@@ -100,6 +81,18 @@
                     <view key="view" contentMode="scaleToFill" id="3YT-di-b7W">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wtw-CT-cgG">
+                                <rect key="frame" x="113" y="398" width="149" height="28"/>
+                                <color key="backgroundColor" red="0.48627450979999998" green="1" blue="0.76862745099999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Log In">
+                                    <color key="titleColor" red="0.36862745099999999" green="0.41176470590000003" blue="0.45098039220000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="LogIn:" destination="GDH-hF-KDr" eventType="touchUpInside" id="vTD-C1-Sud"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="0.36862745099999999" green="0.41176470590000003" blue="0.45098039220000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Log In" id="2kZ-vX-Ogn">
@@ -122,6 +115,15 @@
                     <view key="view" contentMode="scaleToFill" id="KJB-7G-PV0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WTK-Ax-Lxn">
+                                <rect key="frame" x="113" y="395" width="149" height="28"/>
+                                <color key="backgroundColor" red="0.48627450979999998" green="1" blue="0.76862745099999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Log In">
+                                    <color key="titleColor" red="0.36862745099999999" green="0.41176470590000003" blue="0.45098039220000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="0.36862745099999999" green="0.41176470590000003" blue="0.45098039220000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Sign Up" id="gvM-aD-c8X"/>

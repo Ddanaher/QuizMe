@@ -14,6 +14,8 @@
 		15458E021CD04DE50008C4B9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15458E011CD04DE50008C4B9 /* Images.xcassets */; };
 		15458E051CD04DE50008C4B9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15458E031CD04DE50008C4B9 /* LaunchScreen.xib */; };
 		15458E111CD04DE50008C4B9 /* QuizMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15458E101CD04DE50008C4B9 /* QuizMeTests.m */; };
+		159566851CD2D2B100E2B8A9 /* MainUI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 159566841CD2D2B100E2B8A9 /* MainUI.storyboard */; };
+		159566881CD2EF1600E2B8A9 /* MainUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 159566871CD2EF1600E2B8A9 /* MainUIViewController.m */; };
 		15C3E4E91CD192AF005619B7 /* TTF in Resources */ = {isa = PBXBuildFile; fileRef = 15C3E4E81CD192AF005619B7 /* TTF */; };
 		15C3E4EB1CD1996F005619B7 /* book-2869_1920.png in Resources */ = {isa = PBXBuildFile; fileRef = 15C3E4EA1CD1996F005619B7 /* book-2869_1920.png */; };
 		15C3E4ED1CD19A49005619B7 /* library-443371_1920.png in Resources */ = {isa = PBXBuildFile; fileRef = 15C3E4EC1CD19A49005619B7 /* library-443371_1920.png */; };
@@ -48,6 +50,9 @@
 		15458E0A1CD04DE50008C4B9 /* QuizMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15458E0F1CD04DE50008C4B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15458E101CD04DE50008C4B9 /* QuizMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizMeTests.m; sourceTree = "<group>"; };
+		159566841CD2D2B100E2B8A9 /* MainUI.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainUI.storyboard; sourceTree = "<group>"; };
+		159566861CD2EF1600E2B8A9 /* MainUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainUIViewController.h; sourceTree = "<group>"; };
+		159566871CD2EF1600E2B8A9 /* MainUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainUIViewController.m; sourceTree = "<group>"; };
 		15C3E4E81CD192AF005619B7 /* TTF */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TTF; sourceTree = "<group>"; };
 		15C3E4EA1CD1996F005619B7 /* book-2869_1920.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "book-2869_1920.png"; sourceTree = "<group>"; };
 		15C3E4EC1CD19A49005619B7 /* library-443371_1920.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "library-443371_1920.png"; sourceTree = "<group>"; };
@@ -114,6 +119,9 @@
 				15458DF91CD04DE50008C4B9 /* AppDelegate.m */,
 				15458DFB1CD04DE50008C4B9 /* ViewController.h */,
 				15458DFC1CD04DE50008C4B9 /* ViewController.m */,
+				159566841CD2D2B100E2B8A9 /* MainUI.storyboard */,
+				159566861CD2EF1600E2B8A9 /* MainUIViewController.h */,
+				159566871CD2EF1600E2B8A9 /* MainUIViewController.m */,
 				15458DFE1CD04DE50008C4B9 /* Main.storyboard */,
 				15458E011CD04DE50008C4B9 /* Images.xcassets */,
 				15458E031CD04DE50008C4B9 /* LaunchScreen.xib */,
@@ -240,6 +248,7 @@
 				15458E001CD04DE50008C4B9 /* Main.storyboard in Resources */,
 				15C3E4ED1CD19A49005619B7 /* library-443371_1920.png in Resources */,
 				15C3E4E91CD192AF005619B7 /* TTF in Resources */,
+				159566851CD2D2B100E2B8A9 /* MainUI.storyboard in Resources */,
 				15C3E4EF1CD19C61005619B7 /* QuizMeTitle.png in Resources */,
 				15458E051CD04DE50008C4B9 /* LaunchScreen.xib in Resources */,
 				15458E021CD04DE50008C4B9 /* Images.xcassets in Resources */,
@@ -264,6 +273,7 @@
 				15C8F7251CD1B53300A02B36 /* LogInViewController.m in Sources */,
 				15C8F7281CD1B59900A02B36 /* SignUpViewController.m in Sources */,
 				15458DFD1CD04DE50008C4B9 /* ViewController.m in Sources */,
+				159566881CD2EF1600E2B8A9 /* MainUIViewController.m in Sources */,
 				15458DFA1CD04DE50008C4B9 /* AppDelegate.m in Sources */,
 				15458DF71CD04DE50008C4B9 /* main.m in Sources */,
 			);
